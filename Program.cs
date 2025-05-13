@@ -1,4 +1,6 @@
+using EmployeeManager.Middlewares;
 using EmployeeManager.Models;
+using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +26,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseMiddleware<DatabaseConnectionMiddleware>();
 
 app.UseAuthorization();
 
