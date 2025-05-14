@@ -17,10 +17,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//all possible 
+//all possible lifetimes
 // builder.Services.AddTransient<IGreetingService, GreetingService>();
-builder.Services.AddScoped<IGreetingService, GreetingService>();
-builder.Logging.AddConsole();
+// builder.Services.AddScoped<IGreetingService, GreetingService>();
+builder.Services.AddSingleton<IGreetingService, GreetingService>();
 
 
 var app = builder.Build();
