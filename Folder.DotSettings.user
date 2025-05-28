@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d5319d9b_002D7f2d_002D4fa3_002D9081_002D1ddd141e3a62/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PutEmployee_UpdatesEmployee #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CAFD0EE-C2AA-1FC4-3912-A41979D91790::net9.0::EmployeeManager.EmployeeManager.Tests.EmployeesControllerTests.PutEmployee_UpdatesEmployee&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fd1f447d_002Dc385_002D4c10_002D8f64_002Dbc03ae0e7689/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PutEmployee_UpdatesEmployee" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::2CAFD0EE-C2AA-1FC4-3912-A41979D91790::net9.0::EmployeeManager.EmployeeManager.Tests.EmployeesControllerTests.PutEmployee_UpdatesEmployee&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

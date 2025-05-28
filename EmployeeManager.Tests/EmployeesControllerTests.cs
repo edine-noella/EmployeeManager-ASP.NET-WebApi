@@ -83,6 +83,9 @@ namespace EmployeeManager.EmployeeManager.Tests
             existing.FirstName = "Alice Updated";
             var result = await _controller.PutEmployee(1, existing);
             Assert.That(result, Is.InstanceOf<NoContentResult>());
+            
+            var updatedEmployee = await _context.Employees.FindAsync(1);
+            Assert.That(updatedEmployee.FirstName, Is.EqualTo("Alice Updated"));
         }
 
         [Test]
